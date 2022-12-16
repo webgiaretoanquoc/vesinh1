@@ -1,0 +1,267 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.13.1
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+#header-contact li a{text-transform:none; font-size:13px}
+.nav>li.html{font-size:13px !important; color:rgba(102,102,102,0.85)}
+body{word-break: break-word}
+.header-main .nav > li > a {
+	font-size:16px; font-weight:bold;
+	color: #272727 !important; text-transform:none
+}
+.form-lien-he .row-form .right{padding-left:7px; width:50%; display:inline-block}
+.form-lien-he .row-form .left{padding-right:7px; width:49%; display:inline-block}
+.form-lien-he .row-form{display:inline-block; width:100%;clear:both}
+.form-lien-he{box-shadow: 2px 2px 10px #d6d6d6;
+	padding: 20px;}
+.page-right-sidebar .large-9, .blog-single .large-9, .blog-archive .large-9{border-right:0}
+.page-right-sidebar .large-3, .blog-single .large-3, .blog-archive .large-3{border-left:0; padding-left:0}
+.header-main {
+	box-shadow: 2px 2px 10px #00000012;
+}
+.nav-dropdown{border: 0px solid #ddd; padding: 0;}
+.nav-dropdown>li>a {
+	border-bottom: 1px solid #ececec;
+	color: #4c4c4c;}
+.button span{font-weight:normal}
+.gioi-thieu-section .icon-box{border: 1px solid #1cafe5;
+	padding: 20px 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;}
+.tieu-chi-section .icon-box .icon-box-text{padding:0 10px}
+.tieu-chi-section .cot1{padding: 0 15.8px 0px;}
+.keu-goi-hanh-dong-section .cot8 p{margin-bottom:12px}
+.keu-goi-hanh-dong-section h3{margin-bottom:3px; padding-top:13px}
+.con-so-an-tuong-section .col{padding-bottom:0}
+.tieu-chi-section .col.large-12{padding-bottom:5px}
+.section-title{margin-bottom:5px}
+.box-blog-post .is-divider{display:none}
+.list-post .post-item .post-title:hover{color:#1cafe5}
+.con-so-an-tuong-section img{border-radius:6px}
+.list-post .post-item .post-title{margin-bottom:10px; font-size:15px}
+.tin-tuc-section .col{padding-bottom:0}
+
+.dac-diem-section .col{padding-bottom:0 !important}
+.section-title-container {
+	margin-bottom: 0;
+}
+.section-title b{background:#ffffff00}
+.tieu-chi-section .cot1 .col-inner{box-shadow: 2px 2px 20px #0000000d;    background: white;
+	padding: 0 0 20px;}
+.tieu-chi-section .icon-box .icon-box-img{margin: 0 auto 5px !important;}
+.tieu-chi-section .icon-box-img img{padding-top:0;     border: 3px solid white;
+	border-radius: 99%;}
+.tieu-chi-section .icon-box{margin-top:-65px}
+.keu-goi-hanh-dong-section .col{padding-bottom:0}
+.keu-goi-hanh-dong-section .row-icon .icon-box-img {
+	margin: 0 auto 4px;
+}
+.gioi-thieu-section .col.large-12, .gioi-thieu-section .col.medium-4{padding-bottom:0}
+.keu-goi-hanh-dong-section .row-icon .col{padding: 0 2.8px 0;}
+.gioi-thieu-section .cot1{padding: 0 20px 0px;}
+.absolute-footer{font-size:13px}
+.footer-secondary {
+	padding: 0;
+}
+input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea, input[type='submit']{border-radius:4px; box-shadow:none}
+#breadcrumbs {
+	text-align: left;
+	margin-bottom: 10px;
+	font-size: 14px;
+	padding: 0;
+}.meta-related ul {
+	background: #f7f7f7;
+	padding: 10px;
+	border-radius: 5px;
+}.meta-related ul li {
+	list-style: square;
+	font-size: 15px;
+	margin-bottom: 5px;
+}.meta-related ul li a {
+	color: #ff8f00;
+	text-transform: none;
+}.meta-related ul li a:hover {
+	color: #61a63c;
+}.blog-single .blog-share {
+	text-align: left!important;
+}footer.entry-meta {
+	font-size: .8em;
+	border-top: 1px solid #ececec;
+	border-bottom: 2px solid #ececec;
+	padding: .5em 0 .6em;
+}.blog-single .danh-muc, .blog-single .the-tim-kiem {
+	font-size: 15px;
+}.bai-viet-lien-quan h2 {margin-top:20px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #61a63c;
+}.bai-viet-lien-quan ul {
+	margin-bottom: 0;
+	display: inline-block;
+	width: 100%;
+}.bai-viet-lien-quan ul li {
+	list-style: none;
+	width: 33.33%;
+	float: left;
+	padding-left: 7px;
+	padding-right: 7px;
+}.thong-tin-tac-gia {
+	background: #f3ffe9;
+	padding: 15px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 100%;
+	clear: both;
+	border: 1px dashed #61a63c;
+}.thong-tin-tac-gia .left {
+	width: 15%;
+	float: left;
+	display: inline-block;
+}.thong-tin-tac-gia .right {
+	padding-left: 15px;
+	width: 85%;
+	float: right;
+	display: inline-block;
+	text-align: left;
+}.thong-tin-tac-gia h4 {    margin-bottom: 4px;
+	font-size: 19px;
+	font-weight: bold;
+	color: #23a848;
+}
+.header-main .nav > li > a:hover, .nav-dropdown>li>a:hover{color:#1cafe5 !important}
+.bai-viet-lien-quan ul li h3 {
+	height: 45px;
+	overflow: hidden;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 7px;
+	line-height: 21px;
+}
+.bai-viet-lien-quan img{border-radius:5px;} .bai-viet-lien-quan ul li h3:hover{color:#28a345}
+.entry-content {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.is-divider, .blog-single .entry-header .entry-meta{display:none}
+.ngay-cap-nhat, .thu-muc-bv {
+	margin-right: 10px;
+}
+.blog-single .thong-tin-them {
+	font-size: 14px;
+	display: block;
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 10px;
+}.nav-dropdown{width:305px}
+.blog-single h1.entry-title{    letter-spacing: 0;
+	font-size: 21px;
+	color:#4c4c4c;}
+.recent-blog-posts-li a:hover{color:#33adeb}
+.recent-blog-posts-li a {
+	font-size: 15px;color: #1d1d1d;
+}.blog-archive .archive-page-header .page-title {
+	text-align: left;
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 22px;
+	font-weight: bold;
+	color: #2caaea;
+}
+.blog-archive .post-item .post-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 14px;
+	color: #2caaea;
+}.blog-archive .post-item {
+	padding-bottom: 10px;
+}.blog-archive .post-item a:hover {
+	color: #000;
+}.archive-page-header .large-12 {
+	padding-bottom: 10px;
+}.blog-archive .post-item .box-image .image-cover {
+	border-radius: 5px;
+}.blog-archive .large-9 .badge {
+	display: none;
+}.blog-archive .post-item:hover .post-title {
+	color: #125c9e !important;
+}
+.blog-archive .taxonomy-description p{margin-bottom: 10px;}
+.blog-archive .taxonomy-description {
+	text-align: left;
+	font-size: 15px;
+}
+span.widget-title {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 19px;
+	font-weight: bold;
+	text-transform: none;
+	letter-spacing: 0;
+	color: #2caaea;
+}
+.recent-blog-posts-li .badge .badge-inner {
+	border-radius: 99%;
+}
+.widget ul {
+	border-radius: 4px;
+	margin: 0;
+	border: 1px solid #e5e5e5;
+	padding: 10px;
+}
+.list-post .post-item .from_the_blog_excerpt{    height: 42px;
+	overflow: hidden;
+}
+a.back-to-top{background:#21a342 !important; border: none !important; color:white}
+.dac-diem-section .icon-box h4{color: #125c9e;
+	font-size: 18px;
+}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+	.off-canvas-left.mfp-ready .mfp-content{background:#369956}.off-canvas:not(.off-canvas-center) .nav-vertical li>a {
+		padding-left: 20px;
+		color: white;
+		text-transform: none;
+		font-size: 17px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}.nav-sidebar.nav-vertical>li+li {
+		border-top: 1px solid #298246;
+		border-bottom: 2px solid #37a25a;
+	}
+	.nav-sidebar.nav-vertical ul.children li a{    border-bottom: 1px solid #22773e;
+		font-size: 15px;}
+	.nav-sidebar.nav-vertical ul.children li{padding-left:0}
+	.nav-sidebar.nav-vertical ul.children{background:#237d41; padding-bottom:0}
+	.gioi-thieu-section .cot1 {
+		padding: 0 10px 0px;
+	}
+	.gioi-thieu-section .icon-box .icon-box-text{font-size:15px}
+	.gioi-thieu-section{padding-top:30px !important; padding-bottom:30px !important}
+	body{font-size:15px}
+	.tin-tuc-section .col.post-item .from_the_blog_excerpt {display:none}
+	.keu-goi-hanh-dong-section .row-icon .col{flex-basis:33.33%; max-width:33.33%}
+	.tieu-chi-section .cot1 .col-inner{margin-bottom:20px}
+	.tin-tuc-section .col.post-item, .blog-archive .post-item{flex-basis:50%; max-width:50%;}
+	.footer-section .cot1{display:none}
+	.blog-archive .post-item .box-text{padding-bottom:0}
+	.blog-archive .post-item .from_the_blog_excerpt {display:none}
+	.bai-viet-lien-quan ul li{width:50%;}
+	.thong-tin-tac-gia .left{text-align:center}
+	.thong-tin-tac-gia .left, .thong-tin-tac-gia .right{width:100%; padding-left:0; padding-right:0}
+	.bai-viet-lien-quan ul li h3{height:auto; font-size:15px}
+	.blog-archive .post-item .post-title{font-size:15px}
+	.blog-archive .post-item:nth-child(2n+2){padding-left:7px}
+	.blog-archive .post-item:nth-child(2n+1){padding-right:7px}
+	.list-post .post-item .post-title{font-size:14px}
+	.page-right-sidebar .large-3, .blog-single .large-3, .blog-archive .large-3{padding-left:15px}
+	.form-lien-he .row-form .left, .form-lien-he .row-form .right{width:100%; padding-left:0; padding-right:0}
+	.footer-section .medium-4{flex-basis: 100%; max-width:100%}
+	.gioi-thieu-section .col.medium-4{flex-basis:50%; max-width:50%}
+
+}
